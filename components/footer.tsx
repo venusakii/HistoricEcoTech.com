@@ -72,24 +72,13 @@ export function Footer() {
         </div>
 
         {/* Cookie Notice - Brass plaque style */}
-        <div className="mt-12 p-4 bg-brass/10 border border-brass/30 rounded-lg">
-          <p className="text-xs text-ivory/60 text-center">
-            This website uses cookies to improve your experience and analyze usage. By continuing, you agree to our{" "}
-            <Link href="/cookie-policy" className="text-brass hover:text-teal-glow underline">
-              cookie policy
-            </Link>
-            .
-          </p>
-        </div>
+        
 
         {/* Bottom bar */}
         <div className="mt-8 pt-8 border-t border-ivory/10">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-ivory/50">
             <p>© 2025 HistoricEcoTech.com. All rights reserved.</p>
-            <p>
-              Participant in the Amazon Associates Program.{" "}
-              <span className="block sm:inline">As an Amazon Associate, we earn from qualifying purchases.</span>
-            </p>
+            
           </div>
         </div>
       </div>
